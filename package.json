@@ -1,0 +1,23 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "Curso de rest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrcruz/RESTAPI.git"
+  },
+  "keywords": [
+    "api",
+    "rest"
+  ],
+  "author": "Matheus Rufino",
+  "license": "apache 2.0",
+  "bugs": {
+    "url": "https://github.com/matheusrcruz/RESTAPI/issues"
+  },
+  "homepage": "https://github.com/matheusrcruz/RESTAPI#readme"
+}
