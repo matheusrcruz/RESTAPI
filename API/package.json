@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api rest ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrcruz/RESTAPI.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "Matheus Rufino",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/matheusrcruz/RESTAPI/issues"
+  },
+  "homepage": "https://github.com/matheusrcruz/RESTAPI#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
