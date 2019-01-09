@@ -10,7 +10,7 @@ server.get('/',(request, response) => {
 
 
 server.get('/fotos', (request, response) =>{
-    response.send('<h1>Fotos</h1>')
+    response.send('<h1>Fotos</h1> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EdqNMmBEAWPqD10vlEwy4zqzgAzyFxECMhOa7YY3Ke5THgkQTQ">')
 });
 
 server.get('/contatos', (request, response) =>{
