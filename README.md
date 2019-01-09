@@ -1,19 +1,19 @@
 #O que a API terá?
-CRUD
-C => Create (Criar)
-R => Read (Ler)
-U => Update (Atualizar)
-D => Delete (Remover)
-
+CRUD      comparação    METHOD HTTP
+--------------------------------------------
+C => Create (Criar)    | POST
+R => Read (Ler)        | GET
+U => Update (Atualizar)| PUT(PATCH parecido)
+D => Delete (Remover)  | DELETE
+--------------------------------------------
 #O que é API?
-API é um conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado na Web. A sigla API refere-se ao termo em inglês "Application Programming Interface" que significa em tradução para o português "Interface de Programação de Aplicativos".Um exemplo no dia a dia é quando você vincula sua conta no facebook em algum aplicativo ou do linkedin, que associa suas informações de forma "automática".
-#O que é REST o que é RESTFUL?
-REST(teoria)
+API é um conjunto de rotinas e padrões de programação para acesso a um aplicativo de software ou plataforma baseado na Web. A sigla API refere-se ao termo em inglês "Application Programming Interface" que significa em tradução para o português "Interface de Programação de Aplicativos".Um exemplo no dia a dia é quando você vincula sua conta no facebook em algum aplicativo ou do linkedin, que associa suas informações de forma "automática", é um meio de trocar informação,sem depender de linguagem de programação.
+--------------------------------------------
+#REST(teoria)
 é um conceito de arquitetura para padronizar endereços de APIs. Dados estruturados JSON são tão utilizados quanto XML para requisições e respostas. Transferência de Estado Representacional a que se refere, está relacionada à forma como se dá a transmissão da informação no ciclo de vida da aplicação.
 
-RESTful(Aplicação)
+#RESTful(Aplicação)
 Sistemas API arquitetados com vistas a acessos REST e uso semântico dos métodos HTTP GET, POST, PUT, PATCH, DELETE são chamados RESTFUL.
-
 RESTFUL endereça nomes de recursos junto a métodos HTTP para realizar operações.
 
 
@@ -24,5 +24,5 @@ RESTFUL endereça nomes de recursos junto a métodos HTTP para realizar operaç�
 
 3. Instale o express via NPM(npm install express).
 
-#Notas Baseado no curso CollabeCode(https://youtu.be/YB34XS6oYAA) and (https://www.collabcode.training/) se inscrevão no canal e cursos conteúdo de excelência
+#Notas Baseado no curso CollabeCode(https://youtu.be/YB34XS6oYAA) and (https://www.collabcode.training/) se inscrevão no canal e cursos conteúdo de excelência.
 
