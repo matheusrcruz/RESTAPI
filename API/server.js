@@ -21,4 +21,4 @@ server.get('/contatos', (request, response) =>{
 server.listen(port, () =>{
     console.log(`Servidor está de pé em: http:\\localhost:${port}`);
     console.log('Para derrubar o server Ctrl + C')
-}
+});
