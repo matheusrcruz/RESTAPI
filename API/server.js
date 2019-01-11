@@ -4,18 +4,36 @@ const port = 8081;
 
 const server = express();
 
-server.get('/',(request, response) => {
-    response.send('<h1>HOME</h1>')
-});
+const USERS = [
+{
+    name: 'Matheus',
+    age: 20,
+    data: 1998
+},
+{
+    name: 'Francisco',
+    age: 17,
+    data: 2001
+},
+{
+name: 'Savio',
+age: 22,
+data: 1996
+},
+{
+name: 'Adalberto',
+age: 24,
+data: 1995
+}
+]
 
+server.get('/usuario', (req, res) => {
+    res.send(USERS);
+})
 
-server.get('/fotos', (request, response) =>{
-    response.send('<h1>Fotos</h1> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EdqNMmBEAWPqD10vlEwy4zqzgAzyFxECMhOa7YY3Ke5THgkQTQ">')
-});
-
-server.get('/contatos', (request, response) =>{
-    response.send('<h1>Contatos</h1>')
-});
+server.use((req, res, next) => {
+    res.send({msg: 'Essa Rota não tem funcionalidade'});
+})
 
 
 server.listen(port, () =>{

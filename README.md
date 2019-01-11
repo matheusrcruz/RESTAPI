@@ -3,13 +3,13 @@
 CRUD(operações Basica de persistêndia)      comparação    METHOD HTTP(Regras de comunição WEB)
 
 
-C => Create (Criar)    |    POST
+-C => Create (Criar)    |    POST
 -------------------------------
-R => Read (Ler)        |    GET
+-R => Read (Ler)        |    GET
 -------------------------------
-U => Update (Atualizar)|    PUT(PATCH parecido)
+-U => Update (Atualizar)|    PUT(PATCH parecido)
 -------------------------------
-D => Delete (Remover)  |    DELETE
+-D => Delete (Remover)  |    DELETE
 -------------------------------
 
 #O que é API?
